@@ -111,6 +111,7 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
                     name: any;
                     description: any;
                     type: any;
+                    amenities: any;
                     averagePricePerNight: any;
                     totalTripPrice: any;
                     rvInfo?: any;
@@ -121,6 +122,7 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
                     name,
                     description: combinedDescription,
                     type: siteType,
+                    amenities,
                     averagePricePerNight,
                     totalTripPrice,
                     imageUrl,
@@ -175,6 +177,7 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
                         name: any;
                         description: any;
                         type: any;
+                        amenities: any;
                         averagePricePerNight: any;
                         totalTripPrice: any;
                         rvInfo?: any;
@@ -184,6 +187,7 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
                         id,
                         name,
                         description: combinedDescription,
+                        amenities,
                         type: siteType,
                         averagePricePerNight,
                         totalTripPrice,

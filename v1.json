@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1103,
+        "name": "Cottage Cabin",
+        "description": "1 Queen Bed and sleeper sofa in main living area. Queen bed in loft.\nSleeps up to six people. \nNote: Loft is not full height. \nKitchenette has a two burner stove, microwave, sink and fridge. All kitchen pots/pans, utensils, dishware, etc including in cabin. Bathroom with shower. Bedding and towels included.\nCabin has heating and AC.\n\nThese units are not pet friendly. $250 cleaning fee if pets are brought in.\nIf you are bringing your dog, please inquire about pet friendly cabins.",
+        "type": "lodging",
+        "averagePricePerNight": 155.67,
+        "totalTripPrice": 467,
+        "amenities": [
+            "Air Conditioning",
+            "Cable",
+            "Gas Grill",
+            "Heat",
+            "Microwave",
+            "Patio",
+            "Picnic Table",
+            "Private Bathroom",
+            "Private Shower",
+            "Refrigerator",
+            "Stove",
+            "Wi-Fi"
+        ]
+    },
+    {
+        "id": 17075,
+        "name": "Conestoga Wagons",
+        "description": "Furnished with a King bed and one bunk bed; can sleep 4 people. Wagon includes mini fridge, wagon wheel table, electricity, WIFI and climate control. Each wagon has its own private bathhouse.\n\nPETS ARE NOT PERMITTED.\nSmoking is not permitted.\n$500 daily fine will apply for violators of these offenses, and you will be asked to leave the resort immediately.",
+        "type": "lodging",
+        "averagePricePerNight": 145.67,
+        "totalTripPrice": 437,
+        "amenities": [
+            "Air Conditioning",
+            "Electricity",
+            "Heat",
+            "Mini Fridge",
+            "Patio",
+            "Private Bathroom",
+            "Wi-Fi"
+        ]
+    },
+    {
+        "id": 1102,
+        "name": "Deluxe Cabin",
+        "description": "One Bedroom with queen bed. Sleeper sofa in living area and queen bed in loft. \nSleeps up to six people. \nNote: Loft is not full height. \nKitchenette has a two burner stove, microwave, sink and fridge. Bathroom with shower.\nAll kitchen pots/pans, utensils, dishware, etc including in cabin. Bathroom with shower. Bedding and towels included.\nCabin has heating and AC.\nThese units are not pet friendly. $250 cleaning fee if pets are brought in.\nIf you are bringing your dog, please inquire about pet friendly cabins.",
+        "type": "lodging",
+        "averagePricePerNight": 165.67,
+        "totalTripPrice": 497,
+        "amenities": [
+            "Air Conditioning",
+            "Cable",
+            "Gas Grill",
+            "Heat",
+            "Microwave",
+            "Patio",
+            "Picnic Table",
+            "Private Bathroom",
+            "Private Shower",
+            "Refrigerator",
+            "Wi-Fi"
+        ]
+    },
+    {
+        "id": 1104,
+        "name": "Premium Cabin",
+        "description": "Two Bedrooms with queen bed in each room. Sleeper sofa in living area and queen bed in loft. \nSleeps up to eight people. \nNote: Loft is not full height. \nKitchenette has a two burner stove, microwave, sink and fridge. Bathroom with shower.\nAll kitchen pots/pans, utensils, dishware, etc including in cabin. Bathroom with shower. Bedding and towels included.\nCabin has heating and AC.\nThese units are not pet friendly. $250 cleaning fee if pets are brought in.\nIf you are bringing your dog, please inquire about pet friendly cabins.",
+        "type": "lodging",
+        "averagePricePerNight": 175.67,
+        "totalTripPrice": 527,
+        "amenities": [
+            "Air Conditioning",
+            "Cable",
+            "Gas Grill",
+            "Heat",
+            "Microwave",
+            "Patio",
+            "Picnic Table",
+            "Private Bathroom",
+            "Refrigerator",
+            "Wi-Fi"
+        ]
+    },
+    {
+        "id": 17076,
+        "name": "Safari Luxury Tents - King + Bunk",
+        "description": "Furnished with a King bed and one bunk bed; can sleep 4.  Includes mini fridge, Keurig machine, electricity, WiFi, Air Conditioning and Heating. Full private bathroom in unit. \n\nPETS ARE NOT PERMITTED.\nSmoking is not permitted. $500 daily fine will apply for violators of this of these offenses and you will be asked to leave the resort immediately.",
+        "type": "lodging",
+        "averagePricePerNight": 151.67,
+        "totalTripPrice": 455,
+        "amenities": [
+            "Air Conditioning",
+            "Electricity",
+            "Heat",
+            "Mini Fridge",
+            "Patio",
+            "Private Bathroom",
+            "Private Shower",
+            "Wi-Fi"
+        ]
+    },
+    {
+        "id": 1105,
+        "name": "Premium Cabin",
+        "description": "Two Bedrooms with queen bed in each room. Sleeper sofa in living area and queen bed in loft. \nSleeps up to eight people. \nNote: Loft is not full height. \nKitchenette has a two burner stove, microwave, sink and fridge. Bathroom with shower.\nAll kitchen pots/pans, utensils, dishware, etc including in cabin. Bathroom with shower. Bedding and towels included.\nCabin has heating and AC.\nUp to 2 dogs permits. $75 per dog cleaning fee.\nCats and other pets are not permitted.",
+        "type": "lodging",
+        "averagePricePerNight": 175.67,
+        "totalTripPrice": 527,
+        "amenities": [
+            "Air Conditioning",
+            "Cable",
+            "Gas Grill",
+            "Heat",
+            "Microwave",
+            "Pet-Friendly",
+            "Picnic Table",
+            "Private Bathroom",
+            "Private Shower",
+            "Refrigerator"
+        ]
+    }
+]
