@@ -102,6 +102,8 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
               // User does not have pets
               if (petsCheck === 0) {
                 const { id, name, description, averagePricePerNight, totalTripPrice, amenities } = campsite;
+                const imageUrl = campsite.images.mainImage.medium.url;
+                const slideShow = campsite.images.slideshowImages.map((image: { medium: { url: any; }; }) => image.medium.url);
                 let combinedDescription = `${description} Amenities include: ${amenities.join(", ")}.`;
 
                 const filteredCampsite: {
@@ -112,6 +114,8 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
                     averagePricePerNight: any;
                     totalTripPrice: any;
                     rvInfo?: any;
+                    imageUrl: any;
+                    slideShow: any;
                 } = {
                     id,
                     name,
@@ -119,6 +123,8 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
                     type: siteType,
                     averagePricePerNight,
                     totalTripPrice,
+                    imageUrl,
+                    slideShow
                 };
                 
                 // RV-specific filtering
@@ -160,6 +166,8 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
               else {
                 if (isPetFriendly === "true") {
                     const { id, name, description, averagePricePerNight, totalTripPrice, amenities } = campsite;
+                    const imageUrl = campsite.images.mainImage.medium.url;
+                    const slideShow = campsite.images.slideshowImages.map((image: { medium: { url: any; }; }) => image.medium.url);
                     let combinedDescription = `${description} Amenities include: ${amenities.join(", ")}.`;
 
                     const filteredCampsite: {
@@ -170,13 +178,17 @@ export async function GETSearchRoomAvailable(req: Request, res: Response) {
                         averagePricePerNight: any;
                         totalTripPrice: any;
                         rvInfo?: any;
+                        imageUrl: any;
+                        slideShow: any;
                     } = {
                         id,
                         name,
                         description: combinedDescription,
                         type: siteType,
                         averagePricePerNight,
-                        totalTripPrice
+                        totalTripPrice,
+                        imageUrl,
+                        slideShow
                     };
 
                     // RV-specific filtering
